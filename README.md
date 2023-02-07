@@ -8,3 +8,6 @@ Stack
     Peek() - Will return last element of Stack
     get_Stack() - Will return the Stack
     is_empty() - return a boolean valule by checking if the Stack is empty or not
+    
+    Sample Problems:
+        1. Balanced Parenthesis
