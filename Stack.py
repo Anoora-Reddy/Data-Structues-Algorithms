@@ -6,7 +6,7 @@ class Stack():
         self.items.append(item)
     
     def pop(self):
-        self.items.pop()
+        return self.items.pop()
     
     def is_empty(self):
         return self.items == []
@@ -18,23 +18,3 @@ class Stack():
     def get_stack(self):
         return self.items
 
-
-s = Stack()
-
-s.push('A')
-
-s.push('B')
-
-print(s.get_stack())
-
-print(s.peek())
-
-print(s.is_empty())
-
-s.pop()
-
-print(s.get_stack())
-
-s.pop()
-
-print(s.is_empty())
