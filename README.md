@@ -11,3 +11,5 @@ Stack
     
     Sample Problems:
         1. Balanced Parenthesis
+        2. Integer to Binary
+        
